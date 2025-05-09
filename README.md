@@ -24,9 +24,6 @@ The repository is structured as follows:
 
 Netflix-Movie-Recommender/
 ├── app.py                             # Main Streamlit app
-├── model/
-│   ├── movie_list.pkl                 # Pickled movie DataFrame
-│   └── similarity.pkl                 # Pickled cosine similarity matrix
 ├── Movies_Recommender_System.ipynb    # Jupyter notebook for data analysis and model building
 ├── netflix_titles.csv                 # Original raw dataset
 ├── cleaned_netflix_titles.csv         # Cleaned and preprocessed dataset
@@ -36,7 +33,6 @@ Netflix-Movie-Recommender/
 ````
 
 - The `app.py` file is the entry point for the Streamlit app.
-- The `model/` folder contains preprocessed data and the trained similarity model.
 - The notebook contains all the code from data exploration to model creation.
 - The datasets include the original and cleaned Netflix data.
 
@@ -46,7 +42,7 @@ To get started with this project on your local machine:
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/yourusername/Netflix-Movie-Recommender.git
+git clone https://github.com/haddiqaibrahim/Netflix-Movie-Recommender-System.git
 cd Netflix-Movie-Recommender
 ````
 
@@ -74,8 +70,6 @@ streamlit run app.py
 
 * `netflix_titles.csv`: Original dataset containing Netflix movie/TV show titles and details.
 * `cleaned_netflix_titles.csv`: Cleaned and filtered data used for modeling.
-* `movie_list.pkl`: Pickled DataFrame of titles and indices.
-* `similarity.pkl`: Pickled similarity matrix used for recommendations.
 
 ## Usage
 
